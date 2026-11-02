@@ -32,8 +32,10 @@ comment-only edits the parsed code is verified unchanged. `v37/census.py` assert
 Data and caches are not included: census shards, saved registry responses (SQLite), validation workbooks and
 ratings. Code paths expect them under the repository root (`census_s03_v35_20261019/`, `code/cache/`,
 `pipeline/cache/`, `census_20261013/`) and under `screening/data/` and `screening/v37/validation/`.
-Exact reruns come from the saved responses, not from new network calls. Set `RIS_MAILTO` to the contact
-address used for registry requests; cached request URLs include that address.
+Exact reruns come from the saved responses, not from new network calls. Saved request URLs contain the
+contact address used at collection time, so an exact replay from the caches requires `RIS_MAILTO` to be set to
+that original address (supplied with the caches). With any other value cached lookups miss and reference
+states change; this is not a change in the rules.
 
 ## Requirements
 

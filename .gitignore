@@ -6,7 +6,8 @@ __pycache__/
 *.sqlite-*
 *.pkl
 *.xlsx
-screening/results/
+screening/results/*
+!screening/results/.gitkeep
 screening/data/
 screening/v37/census/
 screening/v37/validation/
