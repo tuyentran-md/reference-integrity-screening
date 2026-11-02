@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1320 688" role="img" aria-label="Reference Integrity Screening workflow: extract references from JATS XML, resolve the cited work using cached registries, compare bibliographic fields, and return one of three screening states.">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0C1426"/><stop offset="0.56" stop-color="#101B2D"/><stop offset="1" stop-color="#102438"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="80%" cy="4%" r="72%">
+      <stop offset="0" stop-color="#24546D" stop-opacity=".42"/><stop offset="1" stop-color="#24546D" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1B2B3E"/><stop offset="1" stop-color="#172538"/>
+    </linearGradient>
+    <linearGradient id="progress" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#9BDCBF"/><stop offset="1" stop-color="#7ABFE2"/>
+    </linearGradient>
+    <pattern id="dots" width="27" height="27" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1" fill="#7294B0" opacity=".15"/>
+    </pattern>
+    <filter id="shadow" x="-25%" y="-25%" width="150%" height="160%">
+      <feDropShadow dx="0" dy="15" stdDeviation="16" flood-color="#030915" flood-opacity=".30"/>
+    </filter>
+    <style>
+      .sans{font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}
+      .mono{font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace}
+      .eyebrow{font-size:13px;font-weight:700;letter-spacing:2.4px}
+      .step{font-size:15px;font-weight:750;letter-spacing:1.8px}
+      .title{font-size:24px;font-weight:720;letter-spacing:-.5px}
+      .desc{font-size:17px;fill:#C2D1E0}
+    </style>
+  </defs>
+  <rect width="1320" height="688" rx="25" fill="url(#background)"/>
+  <rect width="1320" height="688" rx="25" fill="url(#glow)"/>
+  <rect x="935" y="0" width="385" height="400" fill="url(#dots)" opacity=".8"/>
+  <path d="M0 158H1320" stroke="#6C8AA5" stroke-opacity=".18"/>
+
+  <g class="sans">
+    <circle cx="67" cy="56" r="7" fill="#8AE3BD"/>
+    <text x="86" y="61" class="eyebrow" fill="#99E4C5">REFERENCE INTEGRITY SCREENING</text>
+    <text x="62" y="117" font-size="41" font-weight="730" letter-spacing="-1.4" fill="#F7FAFE">From citation to source-backed signal</text>
+    <rect x="1046" y="42" width="210" height="34" rx="17" fill="#243B50" stroke="#50718B" stroke-opacity=".6"/>
+    <text x="1151" y="64" font-size="12" text-anchor="middle" font-weight="700" letter-spacing="1" fill="#C4E4F4">FROZEN PIPELINE · V37</text>
+    <text x="64" y="146" font-size="17.5" fill="#A8BED2">An auditable, offline-first workflow for checking references in systematic reviews</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="62" y="195" width="366" height="321" rx="19" fill="url(#card)" stroke="#3D5770" stroke-opacity=".64"/>
+    <rect x="477" y="195" width="366" height="321" rx="19" fill="url(#card)" stroke="#3D5770" stroke-opacity=".64"/>
+    <rect x="892" y="195" width="366" height="321" rx="19" fill="url(#card)" stroke="#3D5770" stroke-opacity=".64"/>
+  </g>
+  <g class="sans">
+    <rect x="85" y="218" width="54" height="29" rx="8" fill="#274C4C"/>
+    <text x="112" y="238" text-anchor="middle" font-size="13" font-weight="700" fill="#9BE3C4">01</text>
+    <text x="151" y="238" class="step" fill="#9CD8C2">EXTRACT</text>
+    <text x="87" y="290" class="title" fill="#F6FBFF">Read the reference</text>
+    <text x="87" y="321" class="desc">Publisher full text in JATS XML</text>
+    <rect x="86" y="350" width="317" height="116" rx="11" fill="#0C1728" stroke="#39516A"/>
+    <circle cx="106" cy="371" r="4" fill="#DB8B7E"/><circle cx="121" cy="371" r="4" fill="#D8BC79"/><circle cx="136" cy="371" r="4" fill="#8BD5B5"/>
+    <text x="385" y="375" text-anchor="end" class="mono" font-size="11" fill="#7899B1">REFERENCE.XML</text>
+    <g class="mono" font-size="15" fill="#C2DAEC">
+      <text x="107" y="407"><tspan fill="#78C8DC">&lt;ref</tspan> <tspan fill="#DCC99E">id=</tspan><tspan fill="#E6B0A0">"R42"</tspan><tspan fill="#78C8DC">&gt;</tspan></text>
+      <text x="122" y="433">... title · author · DOI ...</text>
+      <text x="107" y="452" fill="#78C8DC">&lt;/ref&gt;</text>
+    </g>
+    <text x="87" y="490" font-size="14.5" fill="#9FB6C8">Structured fields, with provenance</text>
+
+    <rect x="500" y="218" width="54" height="29" rx="8" fill="#244352"/>
+    <text x="527" y="238" text-anchor="middle" font-size="13" font-weight="700" fill="#8BCDDC">02</text>
+    <text x="566" y="238" class="step" fill="#88CBE4">RESOLVE</text>
+    <text x="502" y="290" class="title" fill="#F6FBFF">Identify the cited work</text>
+    <text x="502" y="321" class="desc">Match to saved registry records</text>
+    <rect x="501" y="350" width="316" height="116" rx="11" fill="#0C1728" stroke="#39516A"/>
+    <text x="519" y="377" font-size="12" letter-spacing="1.1" font-weight="700" fill="#92AEC4">RECORD SOURCES</text>
+    <g font-size="14" font-weight="680">
+      <rect x="518" y="394" width="96" height="34" rx="8" fill="#213B50" stroke="#3F6580"/>
+      <text x="566" y="416" text-anchor="middle" fill="#C9E9F5">Crossref</text>
+      <rect x="624" y="394" width="80" height="34" rx="8" fill="#213B50" stroke="#3F6580"/>
+      <text x="664" y="416" text-anchor="middle" fill="#C9E9F5">PubMed</text>
+      <rect x="714" y="394" width="88" height="34" rx="8" fill="#213B50" stroke="#3F6580"/>
+      <text x="758" y="416" text-anchor="middle" fill="#C9E9F5">OpenAlex</text>
+    </g>
+    <text x="519" y="453" font-size="12.3" fill="#A3BBCC">Cached snapshots · no live lookups in replay</text>
+    <text x="502" y="490" font-size="14.5" fill="#9FB6C8">Keep ambiguous matches unresolved</text>
+
+    <rect x="915" y="218" width="54" height="29" rx="8" fill="#504437"/>
+    <text x="942" y="238" text-anchor="middle" font-size="13" font-weight="700" fill="#E9C58B">03</text>
+    <text x="981" y="238" class="step" fill="#EAC38A">COMPARE</text>
+    <text x="917" y="290" class="title" fill="#F6FBFF">Check bibliographic fields</text>
+    <text x="917" y="321" class="desc">Rule-based field comparison</text>
+    <rect x="916" y="350" width="316" height="116" rx="11" fill="#0C1728" stroke="#39516A"/>
+    <g font-size="14.5" fill="#C6D7E5">
+      <text x="934" y="381">DOI / PMID</text>
+      <text x="934" y="410">Title · authors · year</text>
+      <text x="934" y="439">Journal · volume · pages</text>
+    </g>
+    <g fill="none" stroke="#9FCDDA" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M1192 376l5 5 9-11"/>
+      <path d="M1192 405l5 5 9-11"/>
+      <path d="M1192 434l5 5 9-11"/>
+    </g>
+    <text x="917" y="490" font-size="14.5" fill="#9FB6C8">Detect mismatches, not certainty</text>
+  </g>
+
+  <g fill="none" stroke="url(#progress)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M435 387H467"/><path d="M461 380l7 7-7 7"/>
+    <path d="M850 387H882"/><path d="M876 380l7 7-7 7"/>
+  </g>
+
+  <rect x="62" y="545" width="1196" height="112" rx="16" fill="#101E30" stroke="#39526B" stroke-opacity=".68"/>
+  <g class="sans">
+    <text x="86" y="575" font-size="12.5" font-weight="750" letter-spacing="1.8" fill="#8FAAC1">THREE POSSIBLE SCREENING STATES</text>
+    <rect x="85" y="592" width="240" height="45" rx="11" fill="#432E37" stroke="#92616A"/>
+    <circle cx="110" cy="614" r="6" fill="#F49F9B"/>
+    <text x="128" y="620" font-size="17" font-weight="690" fill="#FFD3CF">Error detected</text>
+    <rect x="337" y="592" width="267" height="45" rx="11" fill="#213F3C" stroke="#477B6C"/>
+    <circle cx="362" cy="614" r="6" fill="#8DE2BD"/>
+    <text x="380" y="620" font-size="17" font-weight="690" fill="#C6F0DF">No error detected</text>
+    <rect x="617" y="592" width="177" height="45" rx="11" fill="#443C2E" stroke="#8D7855"/>
+    <circle cx="642" cy="614" r="6" fill="#F2C780"/>
+    <text x="659" y="620" font-size="17" font-weight="690" fill="#F6E1B5">Unresolved</text>
+    <text x="1231" y="608" text-anchor="end" font-size="14.5" font-weight="620" fill="#D1DFEA">Screening ≠ verification</text>
+    <text x="1231" y="629" text-anchor="end" font-size="13.5" fill="#91A8BD">Human review remains essential</text>
+  </g>
+</svg>
