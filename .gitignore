@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.DS_Store
+*.log
+*.sqlite
+*.sqlite-*
+*.pkl
+*.xlsx
+screening/results/
+screening/data/
+screening/v37/census/
+screening/v37/validation/
+screening/v37/figures/
+/census_*/
+/code/
+/pipeline/
