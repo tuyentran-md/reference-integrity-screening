@@ -1,0 +1,19 @@
+{
+  "seed": 20261029,
+  "populations_eligible": {
+    "valid": 5403965,
+    "error_v35": 39197,
+    "error_new_v37": 776071,
+    "unresolved": 649203
+  },
+  "allocation": {
+    "valid": 2000,
+    "error_v35": 40,
+    "error_new_v37": 80,
+    "unresolved": 40
+  },
+  "rows_total": 7627028,
+  "rows_in_excluded_reviews": 758592,
+  "sampled_reviews": 2133,
+  "excluded_reviews": 9899
+}

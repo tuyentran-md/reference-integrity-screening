@@ -1,0 +1,164 @@
+case_id,categories,detail
+S37-0005,last page,last page missing or wrong
+S37-0008,volume,no machine-detectable difference
+S37-0016,page/article no.,first page/article no. missing or wrong
+S37-0061,page/article no.,article no. missing
+S37-0063,volume,volume missing/wrong
+S37-0064,middle initial omitted vs fullest record; title,title: subtitle missing (matches short registry form) | middle initial omitted vs fullest record: mounce RC/RCP
+S37-0076,last page; title,title: incomplete or altered | last page missing or wrong
+S37-0078,middle initial omitted vs fullest record,middle initial omitted vs fullest record: price AM/AMH
+S37-0084,page/article no.,article no. missing
+S37-0117,authors missing; middle initial omitted vs fullest record,authors missing (1) without et al. | middle initial omitted vs fullest record: de maat MP/MPM
+S37-0140,page/article no.; volume,volume missing/wrong | first page/article no. missing or wrong
+S37-0150,middle initial omitted vs fullest record,middle initial omitted vs fullest record: scremin AM/AME; van der loos HF/HFM
+S37-0170,page/article no.,first page/article no. missing or wrong
+S37-0198,last page,last page missing or wrong
+S37-0213,title,title: different
+S37-0214,middle initial omitted vs fullest record,middle initial omitted vs fullest record: coughlin S/SS
+S37-0215,page/article no.; volume,volume missing/wrong | first page/article no. missing or wrong
+S37-0220,authors missing,authors missing (3) without et al.
+S37-0239,title,title: incomplete or altered
+S37-0252,title,title: incomplete or altered
+S37-0257,unclear,no machine-detectable difference
+S37-0269,page/article no.,first page/article no. missing or wrong
+S37-0270,author name garbled,no machine-detectable difference
+S37-0278,title,title: different
+S37-0288,unclear,no machine-detectable difference
+S37-0295,author name garbled,no machine-detectable difference
+S37-0307,authors missing; last page,last page missing or wrong | authors missing (3) without et al.
+S37-0309,page/article no.,first page/article no. missing or wrong
+S37-0327,page/article no.; volume,volume missing/wrong | first page/article no. missing or wrong
+S37-0348,last page,last page missing or wrong
+S37-0352,authors missing; middle initial omitted vs fullest record,authors missing (12) without et al. | middle initial omitted vs fullest record: van eekeren R/RRJP; de vries J/JPPM; reijnen M/MMPJ
+S37-0356,last page,last page missing or wrong
+S37-0388,year,no machine-detectable difference
+S37-0393,volume,volume missing/wrong
+S37-0394,unclear,no machine-detectable difference
+S37-0398,last page; year,year wrong | last page missing or wrong
+S37-0427,middle initial omitted vs fullest record,middle initial omitted vs fullest record: fox KA/KAA
+S37-0429,middle initial omitted vs fullest record,middle initial omitted vs fullest record: di giacomo TH/THB; souza DP/DPG
+S37-0436,authors missing; last page,last page missing or wrong | authors missing (36) without et al.
+S37-0447,middle initial omitted vs fullest record,middle initial omitted vs fullest record: hulshof M/MCCM
+S37-0457,authors missing; last page,last page missing or wrong | authors missing (1) without et al.
+S37-0487,page/article no.,first page/article no. missing or wrong
+S37-0496,journal wrong,no machine-detectable difference
+S37-0500,last page,no machine-detectable difference
+S37-0509,page/article no.,first page/article no. missing or wrong
+S37-0523,middle initial omitted vs fullest record,middle initial omitted vs fullest record: boulton AJ/AJM
+S37-0525,page/article no.,first page/article no. missing or wrong
+S37-0537,authors missing; middle initial omitted vs fullest record,authors missing (1) without et al. | middle initial omitted vs fullest record: desantis LR/LRG
+S37-0574,middle initial omitted vs fullest record,middle initial omitted vs fullest record: chee MW/MWL
+S37-0593,author name garbled,no machine-detectable difference
+S37-0598,authors missing,authors missing (4) without et al.
+S37-0607,middle initial omitted vs fullest record,middle initial omitted vs fullest record: ryba NJ/NJP
+S37-0608,authors missing; middle initial omitted vs fullest record,authors missing (2) without et al. | middle initial omitted vs fullest record: yung WK/WKA
+S37-0610,middle initial omitted vs fullest record,middle initial omitted vs fullest record: bello J/JL
+S37-0633,page/article no.,article no. missing
+S37-0642,last page,last page missing or wrong
+S37-0648,authors missing,authors missing (4) without et al.
+S37-0659,unclear,no machine-detectable difference
+S37-0670,last page; middle initial omitted vs fullest record,last page missing or wrong | middle initial omitted vs fullest record: williams JV/JVA
+S37-0680,middle initial omitted vs fullest record,middle initial omitted vs fullest record: tubby K/KV; webber J/JF
+S37-0684,page/article no.,article no. missing
+S37-0691,last page,last page missing or wrong
+S37-0692,authors missing; volume,volume missing/wrong | authors missing (3) without et al.
+S37-0710,page/article no.,no machine-detectable difference
+S37-0712,page/article no.,first page/article no. missing or wrong
+S37-0743,middle initial omitted vs fullest record,middle initial omitted vs fullest record: van breugel HN/HNAM; crijns HJ/HJGM
+S37-0745,unclear,no machine-detectable difference
+S37-0750,authors missing; last page,last page missing or wrong | authors missing (41) without et al.
+S37-0751,middle initial omitted vs fullest record,middle initial omitted vs fullest record: lo IK/IKY
+S37-0770,middle initial omitted vs fullest record,middle initial omitted vs fullest record: lee SS/SSY
+S37-0775,last page,last page missing or wrong
+S37-0789,authors missing; middle initial omitted vs fullest record,authors missing (4) without et al. | middle initial omitted vs fullest record: gomes MC/MCB; monteiro AN/ANA; koifman S/RJ
+S37-0792,page/article no.,first page/article no. missing or wrong
+S37-0798,page/article no.,first page/article no. missing or wrong
+S37-0799,page/article no.,first page/article no. missing or wrong
+S37-0800,last page,last page missing or wrong
+S37-0831,middle initial omitted vs fullest record,middle initial omitted vs fullest record: higgins JP/JPT
+S37-0835,authors missing,authors missing (6) without et al.
+S37-0868,author name garbled,no machine-detectable difference
+S37-0873,journal wrong,no machine-detectable difference
+S37-0914,last page,last page missing or wrong
+S37-0953,last page,no machine-detectable difference
+S37-0954,unclear,no machine-detectable difference
+S37-0955,middle initial omitted vs fullest record,middle initial omitted vs fullest record: renzaho AM/AMN
+S37-0968,unclear,no machine-detectable difference
+S37-0975,unclear,no machine-detectable difference
+S37-0987,middle initial omitted vs fullest record,middle initial omitted vs fullest record: davis MD/MDP; linehan DL/DLN
+S37-0993,middle initial omitted vs fullest record,middle initial omitted vs fullest record: higgins JP/JPT
+S37-1009,page/article no.,first page/article no. missing or wrong
+S37-1020,author name garbled,no machine-detectable difference
+S37-1032,last page,no machine-detectable difference
+S37-1053,authors missing; middle initial omitted vs fullest record,authors missing (1) without et al. | middle initial omitted vs fullest record: peerbooms OL/OLJ; rutten BP/BPF
+S37-1071,last page,no machine-detectable difference
+S37-1074,middle initial omitted vs fullest record,middle initial omitted vs fullest record: roberts CW/CWM
+S37-1075,page/article no.,first page/article no. missing or wrong
+S37-1079,middle initial omitted vs fullest record; title,title: subtitle missing (matches short registry form) | middle initial omitted vs fullest record: calverley PM/PMA
+S37-1085,unclear,no machine-detectable difference
+S37-1089,authors missing; middle initial omitted vs fullest record,authors missing (1) without et al. | middle initial omitted vs fullest record: theunissen KA/KATM; bos AE/AER; hoebe CJ/CJPA
+S37-1097,middle initial omitted vs fullest record,middle initial omitted vs fullest record: kerkhof AJ/AJFM
+S37-1114,title,title: subtitle missing (matches short registry form)
+S37-1122,middle initial omitted vs fullest record,middle initial omitted vs fullest record: knottnerus IL/ILH
+S37-1148,title,title: subtitle missing (matches short registry form)
+S37-1152,last page,last page missing or wrong
+S37-1154,middle initial omitted vs fullest record,no machine-detectable difference
+S37-1166,middle initial omitted vs fullest record,middle initial omitted vs fullest record: rushworth MF/MFS
+S37-1179,middle initial omitted vs fullest record,middle initial omitted vs fullest record: williams SC/SCR
+S37-1183,volume,volume missing/wrong
+S37-1193,middle initial omitted vs fullest record,middle initial omitted vs fullest record: higgins JP/JPT
+S37-1291,authors missing; middle initial omitted vs fullest record,authors missing (2) without et al. | middle initial omitted vs fullest record: sim L/LJ; miller E/EA
+S37-1301,authors missing,authors missing (8) without et al.
+S37-1304,last page,no machine-detectable difference
+S37-1323,middle initial omitted vs fullest record,middle initial omitted vs fullest record: higgins JP/JPT
+S37-1329,page/article no.,first page/article no. missing or wrong
+S37-1348,page/article no.,first page/article no. missing or wrong
+S37-1377,page/article no.; volume,volume missing/wrong | first page/article no. missing or wrong
+S37-1378,last page,last page missing or wrong
+S37-1382,authors missing,authors missing (4) without et al.
+S37-1422,author name garbled,no machine-detectable difference
+S37-1424,middle initial omitted vs fullest record,middle initial omitted vs fullest record: liu T/TX; wang W/WX; zhou S/SZ
+S37-1485,title,title: subtitle missing (matches short registry form)
+S37-1489,authors missing,authors missing (2) without et al.
+S37-1495,middle initial omitted vs fullest record,middle initial omitted vs fullest record: meiland FJ/FJM; van hout HP/HPJ
+S37-1543,authors missing; last page,last page missing or wrong | authors missing (1) without et al.
+S37-1554,page/article no.,first page/article no. missing or wrong
+S37-1560,last page,no machine-detectable difference
+S37-1569,middle initial omitted vs fullest record,middle initial omitted vs fullest record: lockwood DN/DNJ
+S37-1583,authors missing; middle initial omitted vs fullest record; title,title: subtitle missing (matches short registry form) | authors missing (2) without et al. | middle initial omitted vs fullest record: laan RF/RFJM
+S37-1592,middle initial omitted vs fullest record,middle initial omitted vs fullest record: burgess LP/LPA
+S37-1597,title,no machine-detectable difference
+S37-1605,page/article no.,first page/article no. missing or wrong
+S37-1610,DOI malformed,no machine-detectable difference
+S37-1617,unclear,no machine-detectable difference
+S37-1625,last page,last page missing or wrong
+S37-1629,DOI malformed,no machine-detectable difference
+S37-1638,title,title: different
+S37-1657,middle initial omitted vs fullest record,middle initial omitted vs fullest record: higgins JP/JPT
+S37-1659,middle initial omitted vs fullest record,middle initial omitted vs fullest record: benders M/MJNL
+S37-1667,middle initial omitted vs fullest record,middle initial omitted vs fullest record: van de worp W/WRPH; schols A/AMWJ; degens J/JHRJ
+S37-1673,last page,last page missing or wrong
+S37-1692,author name garbled,no machine-detectable difference
+S37-1748,middle initial omitted vs fullest record,middle initial omitted vs fullest record: ioannidis JP/JPA
+S37-1783,middle initial omitted vs fullest record,middle initial omitted vs fullest record: hirschfeld RM/RMA
+S37-1816,last page; middle initial omitted vs fullest record,last page missing or wrong | middle initial omitted vs fullest record: higgins JP/JPT
+S37-1819,authors missing,authors missing (2) without et al.
+S37-1835,middle initial omitted vs fullest record,middle initial omitted vs fullest record: edejer TT/TTT
+S37-1839,middle initial omitted vs fullest record,middle initial omitted vs fullest record: higgins JP/JPT
+S37-1841,year,year missing
+S37-1845,page/article no.,first page/article no. missing or wrong
+S37-1848,last page; year,year wrong | last page missing or wrong
+S37-1869,middle initial omitted vs fullest record; title,title: subtitle missing (matches short registry form) | middle initial omitted vs fullest record: de vries HJ/HJC
+S37-1936,middle initial omitted vs fullest record,middle initial omitted vs fullest record: korten NC/NCM; penninx BW/BWJH; deeg DJ/DJH
+S37-1946,middle initial omitted vs fullest record,middle initial omitted vs fullest record: liu C/CJ
+S37-1965,middle initial omitted vs fullest record,middle initial omitted vs fullest record: schreuder GM/GMT
+S37-1968,page/article no.,first page/article no. missing or wrong
+S37-1976,last page,no machine-detectable difference
+S37-2014,authors missing,authors missing (4) without et al.
+S37-2021,page/article no.,first page/article no. missing or wrong
+S37-2029,authors missing; page/article no.,article no. missing | authors missing (1) without et al.
+S37-2030,last page,last page missing or wrong
+S37-2035,middle initial omitted vs fullest record,middle initial omitted vs fullest record: hulshof MC/MCCM; van lanschot JJ/JJB
+S37-2045,authors missing,authors missing (7) without et al.
+S37-2055,last page,last page missing or wrong
+S37-2104,middle initial omitted vs fullest record,middle initial omitted vs fullest record: jewett MA/MAS

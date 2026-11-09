@@ -12,7 +12,7 @@ This is the **frozen v37 research pipeline** supporting a study of reference int
 
 | Scope | Independent validation | Sensitivity | Specificity |
 | :-- | :-- | :-- | :-- |
-| **7,627,028 references** in 119,030 reviews | **2,160 references**, investigator-rated | **59.8%** (95% CI 55.6–64.1) | **96.9%** (95% CI 95.6–98.1) |
+| **7,627,028 references** in 119,030 reviews | **2,160 references**, rated by two investigators | **59.8%** (95% CI 55.6–64.1) | **96.9%** (95% CI 95.6–98.1) |
 
 In the stratified, weighted validation among resolved references, positive predictive value was **80.2%** (95% CI 71.8–88.4) and negative predictive value was **91.8%** (95% CI 90.6–93.0).
 
@@ -37,7 +37,7 @@ The illustration above is conceptual. The repository exposes **research scripts*
 
 ## Try the included tests
 
-The repository includes synthetic unit tests. They do **not** require the unpublished census dataset or registry caches.
+The repository includes synthetic unit tests. They do **not** require the census data or registry caches.
 
 ```bash
 git clone https://github.com/tuyentran-md/reference-integrity-screening.git
@@ -73,14 +73,16 @@ The original run used **Python 3.14.4**, `lxml 6.1.1`, and `XlsxWriter 3.2.9`. F
 
 ## Data and reproducibility
 
-**Source code is published; research data are not included in this repository.** Excluded materials include the 120-shard census, saved registry responses (SQLite), validation workbooks, and investigator ratings.
+Derived research data are in [`data/`](data/README.md): one row per reference with its screening state, the wrong-study identifiers, and the validation sample with the final verdicts of the two raters. The folder is separate from the code and is not needed to run or reuse it. Full texts, JATS XML and saved registry responses (SQLite) are not included.
 
-Exact numerical reproduction requires the saved response caches and source data from the original run. Scripts expect these in the documented research layout, including `census_s03_v35_20261019/`, `code/cache/`, `pipeline/cache/`, `census_20261013/`, `screening/data/`, and `screening/v37/validation/`.
+The validation files in `data/validation/` reproduce the reported accuracy and prevalence estimates with `v37/metrics.py`, `v37/prevalence.py` and `v37/element_breakdown.py`.
+
+Re-running the census itself requires the saved response caches and source data from the original run. Scripts expect these in the documented research layout, including `census_s03_v35_20261019/`, `code/cache/`, `pipeline/cache/`, `census_20261013/`, `screening/data/`, and `screening/v37/validation/`.
 
 The original cache keys included the collection contact address; exact replay also requires `RIS_MAILTO` to match that address. A different value can produce cache misses, even when the rules are unchanged. **Without those caches, the repository supports inspection and synthetic tests but does not reproduce the complete published analysis.**
 
 ## Release status
 
-**Pre-release — open for independent developer review.** The code is visible for inspection, but this repository **does not yet include a reuse license**. A citation file, packaged dependencies, integration tests, and a documented release tag are planned for the public research-software release.
+The code is released under the [PolyForm Noncommercial License 1.0.0](LICENSE) and the data under [CC BY-NC 4.0](data/LICENSE). Both allow reuse for research and other noncommercial purposes. A citation file, packaged dependencies, integration tests, and a documented release tag are planned.
 
 Please do not interpret this repository as a clinical decision-support system or as evidence of diagnostic performance in patient care.
