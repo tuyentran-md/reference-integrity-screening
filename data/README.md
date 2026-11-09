@@ -28,7 +28,7 @@ All CSV files are UTF-8. A reference is identified by `review_id` + `ref_index`.
 | `year` | Publication year of the review |
 | `in_census` | 1 if the review had full text and at least one parsable reference (119,030 reviews) |
 | `n_references` | Number of parsed references |
-| `development_review` | 1 if the review was used while the tool was developed (9,899 reviews); these are outside the eligible frame of the validation sample |
+| `development_review` | 1 if the review was used while the tool was developed (9,724 reviews); these are outside the eligible frame of the validation sample |
 
 ## references/references_&lt;year&gt;.csv.gz
 
@@ -54,6 +54,6 @@ The rate of wrong-study identifiers per 1,000 references (Results 3.3) counts re
 
 ## validation/
 
-The eligible frame excludes the 9,899 development reviews. Strata were sampled at random by final tool result (seed 20261029): 2,000 with no error detected, 40 and 80 in the two error strata, and 40 unresolved. `sample_stratum` and `inclusion_probability` in `validation_key.csv` give the design. Verdicts are `Error`, `Correct` or `Cannot check`.
+The eligible frame excludes the 9,724 development reviews. Strata were sampled at random by final tool result (seed 20261029): 2,000 with no error detected, 40 and 80 in the two error strata, and 40 unresolved. `sample_stratum` and `inclusion_probability` in `validation_key.csv` give the design. Verdicts are `Error`, `Correct` or `Cannot check`.
 
 Copy the four files into `screening/v37/validation/` and run `v37/metrics.py`, `v37/prevalence.py` and `v37/element_breakdown.py` to reproduce sensitivity, specificity, predictive values, error prevalence and the element breakdown reported in the article.
